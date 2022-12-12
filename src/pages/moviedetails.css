@@ -12,6 +12,7 @@
 .imgdetail{
     border-radius: 15px;
     object-fit: cover;
+    width: 25%;
 }
 .title{margin-top: 0;}
 .moviedetails{

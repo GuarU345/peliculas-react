@@ -12,7 +12,9 @@ const MovieCard = ({movie}) => {
         <Link to={"/moviedet/"+movie.id}>
         <img className='movieimage' width={230} height={345} src={imageurl} alt={movie.title}/>
         </Link>
-        <div>{movie.title}</div>
+        <div>
+          <p className='title'>{movie.title}</p>
+        </div>
         </li>
     </div>
   )

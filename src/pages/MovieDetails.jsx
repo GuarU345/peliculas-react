@@ -24,7 +24,7 @@ const MovieDetails = () => {
     <div className='container'>
         <img className='col imgdetail' src={imageurl} alt={movie.title}/>
         <div className='col moviedetails'>
-            <p className='title'>
+            <p className='movie-title'>
                 <strong>Title: </strong>
                 {movie.title}
             </p>

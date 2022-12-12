@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 .card{
     list-style: none;
-    font-size: 1.5rem;
     text-align: center;
     transition: 0.5s;
+    width: 400px;
 }
 .card:hover{
     opacity: 0.5;
@@ -12,6 +13,11 @@
 .movieimage{
     border-radius: 10px;
     background-color: azure;
+}
+.title{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
 }
 @media (max-width:560px){
    .movieimage{
